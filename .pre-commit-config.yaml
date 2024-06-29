@@ -5,7 +5,7 @@ repos:
       - id: terraform-docs-go
         args: ["markdown", "table", "--output-file", "README.md", "./"]
   - repo: https://github.com/bullterrier666/pre-commit-Terraform
-    rev: "v2.45.1"
+    rev: "f978702d74abf8f61479352205899eae03ea8583"
     hooks:
       - id: terraform_fmt
       - id: terraform_tflint
